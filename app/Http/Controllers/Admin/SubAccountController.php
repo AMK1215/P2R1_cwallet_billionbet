@@ -297,7 +297,7 @@ class SubAccountController extends Controller
         return view('admin.sub_acc.agent_players', compact('players', 'agent'));
     }
 
-    public function playerReport(Request $request, $id)
+     public function playerReport(Request $request, $id)
     {
         $player = \App\Models\User::findOrFail($id);
 
@@ -320,16 +320,16 @@ class SubAccountController extends Controller
         // but since you're already getting all 'bets', we'll adjust the sum on the collection.
         $bets = $query->orderBy('created_at', 'desc')->get();
 
-        // Calculate totals with MMK2 conversion
+        // Calculate totals with THB2 conversion
         $total_stake = $bets->where('wager_status', 'SETTLED')->count(); // Count doesn't need currency conversion
 
-        // Use a custom sum for total_bet and total_win to apply MMK2 conversion
+        // Use a custom sum for total_bet and total_win to apply THB2 conversion
         $total_bet = $bets->where('wager_status', 'SETTLED')->sum(function ($bet) {
-            return $bet->currency == 'MMK2' ? $bet->bet_amount * 1000 : $bet->bet_amount;
+            return $bet->currency == 'THB2' ? $bet->bet_amount / 1000 : $bet->bet_amount;
         });
 
         $total_win = $bets->where('wager_status', 'SETTLED')->sum(function ($bet) {
-            return $bet->currency == 'MMK2' ? $bet->prize_amount * 1000 : $bet->prize_amount;
+            return $bet->currency == 'THB2' ? $bet->prize_amount / 1000 : $bet->prize_amount;
         });
 
         $net_win = $total_win - $total_bet; // Calculated after conversion
@@ -349,49 +349,6 @@ class SubAccountController extends Controller
             'player', 'bets', 'total_stake', 'total_bet', 'total_win', 'total_lost', 'providers', 'net_win', 'is_win', 'is_lost'
         ));
     }
-
-    // public function playerReport(Request $request, $id)
-    // {
-    //     $player = \App\Models\User::findOrFail($id);
-
-    //     $query = \App\Models\PlaceBet::where('member_account', $player->user_name);
-
-    //     // Robust provider_name filter (case-insensitive, trimmed)
-    //     if ($request->filled('provider_name')) {
-    //         $query->whereRaw('LOWER(TRIM(provider_name)) = ?', [strtolower(trim($request->provider_name))]);
-    //     }
-
-    //     // Date range filter
-    //     if ($request->filled('start_date')) {
-    //         $query->whereDate('created_at', '>=', $request->start_date.' 00:00:00');
-    //     }
-    //     if ($request->filled('end_date')) {
-    //         $query->whereDate('created_at', '<=', $request->end_date.' 23:59:59');
-    //     }
-
-    //     $bets = $query->orderBy('created_at', 'desc')->get();
-
-    //     // Totals
-    //     $total_stake = $bets->where('wager_status', 'SETTLED')->count();
-    //     $total_bet = $bets->where('wager_status', 'SETTLED')->sum('bet_amount');
-    //     // $total_bet = $bets->sum('bet_amount');
-    //     $total_win = $bets->where('wager_status', 'SETTLED')->sum('prize_amount');
-    //     $total_lost = $total_bet - $total_win;
-    //     $net_win = $total_win - $total_bet; // Positive if won, negative if lost
-
-    //     $is_win = $net_win > 0;
-    //     $is_lost = $net_win < 0;
-
-    //     // Provider dropdown
-    //     $providers = \App\Models\PlaceBet::where('member_account', $player->user_name)
-    //         ->select('provider_name')
-    //         ->distinct()
-    //         ->pluck('provider_name');
-
-    //     return view('admin.sub_acc.player_report_detail', compact(
-    //         'player', 'bets', 'total_stake', 'total_bet', 'total_win', 'total_lost', 'providers', 'net_win', 'is_win', 'is_lost'
-    //     ));
-    // }
 
     // ----------------- Transaction method -------------
     public function getCashIn(User $player)
