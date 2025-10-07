@@ -37,6 +37,8 @@ class DashboardController extends Controller
                 return $this->agentDashboard();
             case 30: // SubAgent
                 return $this->subAgentDashboard();
+            case 50: // SystemWallet
+                return $this->systemWalletDashboard();
             default:
                 abort(403, 'Access denied');
         }
@@ -299,6 +301,13 @@ class DashboardController extends Controller
         ];
 
         return view('admin.dashboard.subagent', compact('stats'));
+    }
+
+
+    // system wallet dashboard
+    private function systemWalletDashboard()
+    {
+        return view('admin.dashboard.systemwallet');
     }
 
     /**
