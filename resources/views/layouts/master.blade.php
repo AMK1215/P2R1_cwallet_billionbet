@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ONEXBET | Dashboard</title>
+    <title>BILLIONBET | Dashboard</title>
 
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -108,9 +108,9 @@
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
             <!-- Brand Logo -->
              <a href="{{ route('admin.home') }}" class="brand-link">
-            <img src="{{ asset('assets/img/logo/1.png') }}" alt="AdminLTE Logo"
+            <img src="{{ asset('assets/img/logo/1.jpg') }}" alt="AdminLTE Logo"
                 class="brand-image img-circle elevation-3" style="opacity: .8">
-            <span class="brand-text font-weight-light">ONEXBET</span>
+            <span class="brand-text font-weight-light">BILLIONBET</span>
             </a>
             <!-- Brand Logo -->
 
@@ -282,6 +282,13 @@
                                         class="nav-link {{ Route::current()->getName() == 'admin.logs.user-activities' ? 'active' : '' }}">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>User Activities</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="{{ route('admin.logs.user-guide') }}"
+                                        class="nav-link {{ Route::current()->getName() == 'admin.logs.user-guide' ? 'active' : '' }}">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>User Guide</p>
                                     </a>
                                 </li>
                                 @if(auth()->user()->type == 10 || auth()->user()->type == 50)
@@ -718,7 +725,7 @@
             @yield('content')
         </div>
         <footer class="main-footer">
-            <strong>Copyright &copy; 2025 <a href="">ONEXBET</a>.</strong>
+            <strong>Copyright &copy; 2025 <a href="">BILLIONBET</a>.</strong>
             All rights reserved.
             <div class="float-right d-none d-sm-inline-block">
                 <b>Version</b> 3.2.2

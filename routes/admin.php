@@ -311,6 +311,12 @@ Route::group([
         Route::get('/system-export-logs', [App\Http\Controllers\Admin\SystemLogController::class, 'exportTransactionLogs'])->name('system-export-logs');
         Route::get('/system-cleanup-settings', [App\Http\Controllers\Admin\SystemLogController::class, 'getCleanupSettings'])->name('system-cleanup-settings');
         Route::post('/system-cleanup-settings', [App\Http\Controllers\Admin\SystemLogController::class, 'updateCleanupSettings'])->name('system-cleanup-settings-update');
+        
+        // User Guide Routes
+        Route::get('/user-guide', [App\Http\Controllers\Admin\UserGuideController::class, 'index'])->name('user-guide');
+        Route::get('/user-guide/{guideId}', [App\Http\Controllers\Admin\UserGuideController::class, 'show'])->name('user-guide.show');
+        Route::get('/user-guide/{guideId}/download', [App\Http\Controllers\Admin\UserGuideController::class, 'download'])->name('user-guide.download');
+        Route::get('/user-guide-search', [App\Http\Controllers\Admin\UserGuideController::class, 'search'])->name('user-guide.search');
     });
 
     // Transaction Archive Management (Owner/SystemWallet only)
