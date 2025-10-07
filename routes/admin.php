@@ -283,6 +283,11 @@ Route::group([
         Route::post('/soft-delete-transactions', [LogController::class, 'softDeleteTransactions'])->name('soft-delete-transactions');
         Route::post('/restore-transactions', [LogController::class, 'restoreTransactions'])->name('restore-transactions');
         Route::get('/deleted-transactions', [LogController::class, 'deletedTransactions'])->name('deleted-transactions');
+        
+        // Webhook retry functionality
+        Route::post('/webhook/{id}/retry', [App\Http\Controllers\Admin\WebhookRetryController::class, 'retryWebhook'])->name('webhook-retry');
+        Route::post('/webhook/{id}/test', [App\Http\Controllers\Admin\WebhookRetryController::class, 'testWebhook'])->name('webhook-test');
+        Route::get('/webhook/{id}/retry-history', [App\Http\Controllers\Admin\WebhookRetryController::class, 'getRetryHistory'])->name('webhook-retry-history');
     });
 
     // Transaction Archive Management (Owner/SystemWallet only)

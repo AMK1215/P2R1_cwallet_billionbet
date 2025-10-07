@@ -307,10 +307,14 @@
                             </button>
                             
                             @if($log->status !== 'success')
-                                <button class="btn btn-danger" onclick="retryWebhook()">
+                                <button class="btn btn-danger" onclick="showRetryModal()">
                                     <i class="fas fa-redo"></i> Retry Request
                                 </button>
                             @endif
+                            
+                            <button class="btn btn-primary" onclick="loadRetryHistory()">
+                                <i class="fas fa-history"></i> Retry History
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -340,10 +344,93 @@
         </div>
     </div>
 </section>
+
+<!-- Retry Modal -->
+<div class="modal fade" id="retryModal" tabindex="-1" role="dialog" aria-labelledby="retryModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="retryModalLabel">
+                    <i class="fas fa-redo"></i> Retry Failed Webhook
+                </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="retryForm">
+                    <div class="form-group">
+                        <label for="retryType">Retry Type</label>
+                        <select class="form-control" id="retryType" name="retry_type" required>
+                            <option value="">Select Retry Type</option>
+                            <option value="full">Full Retry (All Transactions)</option>
+                            <option value="partial">Partial Retry (Failed Only)</option>
+                            <option value="individual">Individual Retry (Select Specific)</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group" id="individualTransactions" style="display: none;">
+                        <label>Select Transactions to Retry</label>
+                        <div id="transactionList" class="border p-3" style="max-height: 200px; overflow-y: auto;">
+                            <!-- Individual transactions will be loaded here -->
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="retryReason">Reason for Retry</label>
+                        <textarea class="form-control" id="retryReason" name="reason" rows="3" 
+                                  placeholder="Explain why this webhook is being retried..." required></textarea>
+                    </div>
+                    
+                    <div class="alert alert-info">
+                        <i class="fas fa-info-circle"></i>
+                        <strong>Note:</strong> This will create a new webhook request with the same parameters. 
+                        Make sure to verify the data before proceeding.
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-danger" onclick="executeRetry()">
+                    <i class="fas fa-redo"></i> Execute Retry
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Retry History Modal -->
+<div class="modal fade" id="retryHistoryModal" tabindex="-1" role="dialog" aria-labelledby="retryHistoryModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="retryHistoryModalLabel">
+                    <i class="fas fa-history"></i> Retry History
+                </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="retryHistoryContent">
+                    <div class="text-center">
+                        <i class="fas fa-spinner fa-spin"></i> Loading retry history...
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
 @endsection
 
 @section('script')
 <script>
+const logId = {{ $log->id }};
+const logData = @json($log);
+
 function copyToClipboard(text) {
     navigator.clipboard.writeText(text).then(function() {
         toastr.success('Data copied to clipboard');
@@ -354,30 +441,214 @@ function copyToClipboard(text) {
 }
 
 function copyFullLog() {
-    const logData = {
-        id: {{ $log->id }},
-        type: '{{ $log->type }}',
-        status: '{{ $log->status }}',
-        created_at: '{{ $log->created_at }}',
-        batch_request: @json($log->batch_request),
-        response_data: @json($log->response_data)
+    const fullLogData = {
+        id: logData.id,
+        type: logData.type,
+        status: logData.status,
+        created_at: logData.created_at,
+        batch_request: logData.batch_request,
+        response_data: logData.response_data
     };
     
-    copyToClipboard(JSON.stringify(logData, null, 2));
+    copyToClipboard(JSON.stringify(fullLogData, null, 2));
 }
 
 function testWebhook() {
-    if (confirm('This will create a test request similar to this webhook. Continue?')) {
-        // This would need to be implemented as an API endpoint
-        toastr.info('Test webhook functionality would be implemented here');
+    if (confirm('This will simulate the webhook request without making actual changes. Continue?')) {
+        const button = event.target;
+        const originalText = button.innerHTML;
+        button.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Testing...';
+        button.disabled = true;
+        
+        fetch(`/admin/logs/webhook/${logId}/test`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute('content')
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                toastr.success('Webhook test completed successfully');
+                console.log('Test results:', data.data);
+            } else {
+                toastr.error('Webhook test failed: ' + data.message);
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            toastr.error('Webhook test failed');
+        })
+        .finally(() => {
+            button.innerHTML = originalText;
+            button.disabled = false;
+        });
     }
 }
 
-function retryWebhook() {
-    if (confirm('This will retry the failed webhook request. Continue?')) {
-        // This would need to be implemented as an API endpoint
-        toastr.info('Retry webhook functionality would be implemented here');
-    }
+function showRetryModal() {
+    $('#retryModal').modal('show');
+    loadTransactionList();
 }
+
+function loadTransactionList() {
+    const transactionList = document.getElementById('transactionList');
+    const batchRequests = logData.batch_request.batch_requests || [];
+    
+    if (batchRequests.length === 0) {
+        transactionList.innerHTML = '<p class="text-muted">No transactions found</p>';
+        return;
+    }
+    
+    let html = '';
+    batchRequests.forEach((transaction, index) => {
+        const isFailed = isTransactionFailed(index);
+        html += `
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" 
+                       id="transaction_${index}" 
+                       value="${index}"
+                       ${isFailed ? 'checked' : ''}>
+                <label class="form-check-label" for="transaction_${index}">
+                    <strong>Transaction ${index + 1}:</strong> 
+                    ${transaction.member_account || 'N/A'} - 
+                    ${transaction.amount || 0} 
+                    ${logData.batch_request.currency || ''}
+                    ${isFailed ? '<span class="badge badge-danger ml-2">Failed</span>' : ''}
+                </label>
+            </div>
+        `;
+    });
+    
+    transactionList.innerHTML = html;
+}
+
+function isTransactionFailed(index) {
+    if (!logData.response_data || !logData.response_data.data) return false;
+    const response = logData.response_data.data[index];
+    return response && response.code !== 0;
+}
+
+function executeRetry() {
+    const retryType = document.getElementById('retryType').value;
+    const reason = document.getElementById('retryReason').value;
+    
+    if (!retryType || !reason.trim()) {
+        toastr.error('Please select retry type and provide a reason');
+        return;
+    }
+    
+    const formData = {
+        retry_type: retryType,
+        reason: reason
+    };
+    
+    if (retryType === 'individual') {
+        const selectedTransactions = Array.from(document.querySelectorAll('#transactionList input:checked'))
+            .map(input => parseInt(input.value));
+        
+        if (selectedTransactions.length === 0) {
+            toastr.error('Please select at least one transaction to retry');
+            return;
+        }
+        
+        formData.transaction_ids = selectedTransactions;
+    }
+    
+    const button = event.target;
+    const originalText = button.innerHTML;
+    button.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Retrying...';
+    button.disabled = true;
+    
+    fetch(`/admin/logs/webhook/${logId}/retry`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute('content')
+        },
+        body: JSON.stringify(formData)
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            toastr.success('Webhook retry completed successfully');
+            $('#retryModal').modal('hide');
+            // Refresh the page to show updated data
+            setTimeout(() => {
+                window.location.reload();
+            }, 2000);
+        } else {
+            toastr.error('Webhook retry failed: ' + data.message);
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        toastr.error('Webhook retry failed');
+    })
+    .finally(() => {
+        button.innerHTML = originalText;
+        button.disabled = false;
+    });
+}
+
+function loadRetryHistory() {
+    $('#retryHistoryModal').modal('show');
+    
+    fetch(`/admin/logs/webhook/${logId}/retry-history`)
+        .then(response => response.json())
+        .then(data => {
+            const content = document.getElementById('retryHistoryContent');
+            
+            if (data.success && data.data.length > 0) {
+                let html = '<div class="table-responsive"><table class="table table-striped">';
+                html += '<thead><tr><th>ID</th><th>Type</th><th>Status</th><th>Retry By</th><th>Created At</th><th>Actions</th></tr></thead><tbody>';
+                
+                data.data.forEach(retry => {
+                    html += `
+                        <tr>
+                            <td>${retry.id}</td>
+                            <td><span class="badge badge-info">${retry.type}</span></td>
+                            <td>
+                                <span class="badge ${retry.status === 'success' ? 'badge-success' : 'badge-danger'}">
+                                    ${retry.status}
+                                </span>
+                            </td>
+                            <td>${retry.batch_request?.retry_metadata?.retry_by || 'N/A'}</td>
+                            <td>${new Date(retry.created_at).toLocaleString()}</td>
+                            <td>
+                                <a href="/admin/logs/webhook/${retry.id}" class="btn btn-sm btn-info">
+                                    <i class="fas fa-eye"></i> View
+                                </a>
+                            </td>
+                        </tr>
+                    `;
+                });
+                
+                html += '</tbody></table></div>';
+                content.innerHTML = html;
+            } else {
+                content.innerHTML = '<div class="text-center text-muted"><i class="fas fa-inbox"></i><br>No retry history found</div>';
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            document.getElementById('retryHistoryContent').innerHTML = 
+                '<div class="alert alert-danger">Failed to load retry history</div>';
+        });
+}
+
+// Event listeners
+document.addEventListener('DOMContentLoaded', function() {
+    // Show/hide individual transactions based on retry type
+    document.getElementById('retryType').addEventListener('change', function() {
+        const individualDiv = document.getElementById('individualTransactions');
+        if (this.value === 'individual') {
+            individualDiv.style.display = 'block';
+        } else {
+            individualDiv.style.display = 'none';
+        }
+    });
+});
 </script>
 @endsection
