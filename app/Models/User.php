@@ -65,6 +65,8 @@ class User extends Authenticatable
         'limit3',
         'cor',
         'cor3',
+        'bank_name',
+        'bank_number',
     ];
 
     /**

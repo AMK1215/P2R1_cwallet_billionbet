@@ -73,6 +73,29 @@
                                     <input type="text" class="form-control" name="amount" value="{{ old('amount') }}">
                                 </div>
 
+                                <div class="form-group">
+                                    <label>Choose Bank <span class="text-danger">*</span></label>
+                                    <select class="form-control" name="bank_name" id="bank_name">
+                                        <option value="">Select Bank</option>
+                                        @foreach($paymentTypes as $paymentType)
+                                            <option value="{{ $paymentType->name }}" {{ old('bank_name') == $paymentType->name ? 'selected' : '' }}>
+                                                {{ $paymentType->name }}
+                                            </option>
+                                        @endforeach
+                                    </select>
+                                    @error('bank_name')
+                                        <div class="text-danger">{{ $message }}</div>
+                                    @enderror
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Bank Number <span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control" name="bank_number" value="{{ old('bank_number') }}" placeholder="Enter bank account number">
+                                    @error('bank_number')
+                                        <div class="text-danger">{{ $message }}</div>
+                                    @enderror
+                                </div>
+
                             </div>
                         </div>
 

@@ -28,6 +28,8 @@ class PlayerRequest extends FormRequest
             'password' => 'required|min:6',
             'amount' => 'nullable|numeric',
             'site_link' => ['nullable', 'string'],
+            'bank_name' => ['nullable', 'string', 'max:255'],
+            'bank_number' => ['nullable', 'string', 'max:255'],
         ];
     }
 }

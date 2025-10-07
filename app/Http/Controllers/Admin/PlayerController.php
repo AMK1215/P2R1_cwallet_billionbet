@@ -178,9 +178,12 @@ class PlayerController extends Controller
         // Get the related owner of the agent
         $owner = User::where('id', $agent->agent_id)->first(); // Assuming `agent_id` refers to the owner's ID
 
+        // Get payment types for bank selection
+        $paymentTypes = PaymentType::all();
+
         // return $owner;
 
-        return view('admin.player.create', compact('player_name', 'owner'));
+        return view('admin.player.create', compact('player_name', 'owner', 'paymentTypes'));
     }
 
     /**
@@ -211,6 +214,8 @@ class PlayerController extends Controller
                 'phone' => $inputs['phone'],
                 'agent_id' => $agent->id,
                 'type' => UserType::Player,
+                'bank_name' => $inputs['bank_name'] ?? null,
+                'bank_number' => $inputs['bank_number'] ?? null,
             ]);
 
             $user->roles()->sync(self::PLAYER_ROLE);
