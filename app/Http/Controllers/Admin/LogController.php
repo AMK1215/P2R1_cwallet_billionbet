@@ -352,6 +352,17 @@ class LogController extends Controller
             'unique_users_today' => UserLog::whereDate('created_at', today())->distinct('user_id')->count(),
         ];
 
+        // Add deadlock statistics if DeadlockLog model exists
+        if (class_exists(\App\Models\DeadlockLog::class)) {
+            $stats['deadlock_count'] = \App\Models\DeadlockLog::count();
+            $stats['deadlock_today'] = \App\Models\DeadlockLog::whereDate('created_at', today())->count();
+            $stats['unresolved_deadlocks'] = \App\Models\DeadlockLog::where('is_resolved', false)->count();
+        } else {
+            $stats['deadlock_count'] = 0;
+            $stats['deadlock_today'] = 0;
+            $stats['unresolved_deadlocks'] = 0;
+        }
+
         return response()->json($stats);
     }
 

@@ -288,6 +288,18 @@ Route::group([
         Route::post('/webhook/{id}/retry', [App\Http\Controllers\Admin\WebhookRetryController::class, 'retryWebhook'])->name('webhook-retry');
         Route::post('/webhook/{id}/test', [App\Http\Controllers\Admin\WebhookRetryController::class, 'testWebhook'])->name('webhook-test');
         Route::get('/webhook/{id}/retry-history', [App\Http\Controllers\Admin\WebhookRetryController::class, 'getRetryHistory'])->name('webhook-retry-history');
+        
+        // Deadlock monitoring functionality
+        Route::get('/deadlock-logs', [App\Http\Controllers\Admin\DeadlockController::class, 'index'])->name('deadlock-logs');
+        Route::get('/deadlock-logs/{id}', [App\Http\Controllers\Admin\DeadlockController::class, 'show'])->name('deadlock-detail');
+        Route::get('/deadlock-dashboard', [App\Http\Controllers\Admin\DeadlockController::class, 'dashboard'])->name('deadlock-dashboard');
+        Route::get('/deadlock-statistics', [App\Http\Controllers\Admin\DeadlockController::class, 'getStatistics'])->name('deadlock-statistics');
+        Route::get('/deadlock-trends', [App\Http\Controllers\Admin\DeadlockController::class, 'getTrends'])->name('deadlock-trends');
+        Route::post('/deadlock-logs/{id}/resolve', [App\Http\Controllers\Admin\DeadlockController::class, 'resolve'])->name('deadlock-resolve');
+        Route::post('/deadlock-monitor', [App\Http\Controllers\Admin\DeadlockController::class, 'monitor'])->name('deadlock-monitor');
+        Route::get('/deadlock-active', [App\Http\Controllers\Admin\DeadlockController::class, 'getActive'])->name('deadlock-active');
+        Route::post('/deadlock-cleanup', [App\Http\Controllers\Admin\DeadlockController::class, 'cleanup'])->name('deadlock-cleanup');
+        Route::get('/deadlock-export', [App\Http\Controllers\Admin\DeadlockController::class, 'export'])->name('deadlock-export');
     });
 
     // Transaction Archive Management (Owner/SystemWallet only)

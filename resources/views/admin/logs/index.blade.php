@@ -98,6 +98,17 @@
                 </div>
             </div>
             <div class="col-lg-2 col-6">
+                <div class="small-box bg-danger">
+                    <div class="inner">
+                        <h3 id="deadlock-count">-</h3>
+                        <p>Deadlocks</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-6">
                 <div class="small-box stats-card" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
                     <div class="inner">
                         <h3 id="user-activities-today">-</h3>
@@ -194,6 +205,26 @@
             </div>
         </div>
 
+        <!-- Second Row -->
+        <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card log-card" onclick="window.location.href='{{ route('admin.logs.deadlock-logs') }}'">
+                    <div class="card-body text-center">
+                        <div class="log-type-icon text-danger">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <h5 class="card-title">Deadlock Monitoring</h5>
+                        <p class="card-text">Monitor PostgreSQL deadlocks, analyze lock conflicts, and track database performance issues.</p>
+                        <div class="mt-3">
+                            <span class="badge badge-danger">PostgreSQL</span>
+                            <span class="badge badge-warning">Performance</span>
+                            <span class="badge badge-info">Monitoring</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Quick Actions -->
         <div class="row">
             <div class="col-12">
@@ -267,6 +298,7 @@ function loadStats() {
             $('#today-transactions').text(data.today_transactions.toLocaleString());
             $('#webhook-logs-today').text(data.webhook_logs_today.toLocaleString());
             $('#failed-webhooks').text(data.failed_webhooks.toLocaleString());
+            $('#deadlock-count').text(data.deadlock_count || 0);
             
             // New user activity statistics
             if (data.user_activities_today !== undefined) {
