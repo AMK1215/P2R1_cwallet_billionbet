@@ -17,7 +17,7 @@
                 </div>
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
-                        <li class="breadcrumb-item"><a href="{{ route('admin.dashboard') }}">ပင်မဒက်ရှ်ဘုတ်</a></li>
+                        <li class="breadcrumb-item"><a href="{{ route('admin.home') }}">ပင်မဒက်ရှ်ဘုတ်</a></li>
                         <li class="breadcrumb-item"><a href="{{ route('admin.logs.user-guide') }}">အသုံးပြုသူလမ်းညွှန်</a></li>
                         <li class="breadcrumb-item active">{{ $guide['title'] }}</li>
                     </ol>
