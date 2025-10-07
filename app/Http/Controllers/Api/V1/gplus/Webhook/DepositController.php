@@ -24,7 +24,9 @@ class DepositController extends Controller
     /**
      * @var array Allowed currencies for deposit.
      */
-    private array $allowedCurrencies = ['MMK', 'IDR', 'IDR2', 'KRW2', 'MMK2', 'VND2', 'LAK2', 'KHR2'];
+    // private array $allowedCurrencies = ['MMK', 'IDR', 'IDR2', 'KRW2', 'MMK2', 'VND2', 'LAK2', 'KHR2'];
+
+    private array $allowedCurrencies = ['THB', 'IDR', 'IDR2', 'KRW2', 'MMK2', 'VND2', 'LAK2', 'KHR2', 'THB2'];
 
     /**
      * @var array Actions considered as deposits.
@@ -356,15 +358,31 @@ class DepositController extends Controller
      * Gets the currency conversion value.
      * This is a placeholder; you'd implement actual currency rates here.
      */
-    private function getCurrencyValue(string $currency): int
+    // private function getCurrencyValue(string $currency): int
+    // {
+    //     return match ($currency) {
+    //         'IDR2' => 100, // Example multiplier
+    //         'KRW2' => 10,
+    //         'MMK2' => 1000,
+    //         'VND2' => 1000,
+    //         'LAK2' => 10,
+    //         'KHR2' => 100,
+    //         default => 1,
+    //     };
+    // }
+
+     private function getCurrencyValue(string $currency): int
     {
         return match ($currency) {
-            'IDR2' => 100, // Example multiplier
+            'THB' => 1, // 1:1 ratio
+            'IDR' => 1, // 1:1 ratio
+            'IDR2' => 100, // Special currency multiplier
             'KRW2' => 10,
             'MMK2' => 1000,
             'VND2' => 1000,
             'LAK2' => 10,
             'KHR2' => 100,
+            'THB2' => 1000, // 1000 THB = 1 THB2
             default => 1,
         };
     }
@@ -374,7 +392,7 @@ class DepositController extends Controller
      */
     private function formatBalanceForResponse(float $balance, string $currency): float
     {
-        $specialCurrencies = ['IDR2', 'KRW2', 'MMK2', 'VND2', 'LAK2', 'KHR2'];
+        $specialCurrencies = ['IDR2', 'KRW2', 'MMK2', 'VND2', 'LAK2', 'KHR2', 'THB2'];
         $isSpecialCurrency = in_array($currency, $specialCurrencies);
         
         Log::debug('DepositController: formatBalanceForResponse', [

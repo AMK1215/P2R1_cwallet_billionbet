@@ -25,12 +25,17 @@ class WithdrawController extends Controller
     /**
      * @var array Allowed currencies for withdraw.
      */
-    private array $allowedCurrencies = ['MMK', 'IDR', 'IDR2', 'KRW2', 'MMK2', 'VND2', 'LAK2', 'KHR2'];
+    // private array $allowedCurrencies = ['MMK', 'IDR', 'IDR2', 'KRW2', 'MMK2', 'VND2', 'LAK2', 'KHR2'];
+
+    
+    // private array $specialCurrencies = ['IDR2', 'KRW2', 'MMK2', 'VND2', 'LAK2', 'KHR2'];
+
+     private array $allowedCurrencies = ['THB', 'IDR', 'IDR2', 'KRW2', 'MMK2', 'VND2', 'LAK2', 'KHR2', 'THB2'];
 
     /**
      * @var array Currencies requiring special conversion (e.g., 1:1000).
      */
-    private array $specialCurrencies = ['IDR2', 'KRW2', 'MMK2', 'VND2', 'LAK2', 'KHR2'];
+    private array $specialCurrencies = ['IDR2', 'KRW2', 'MMK2', 'VND2', 'LAK2', 'KHR2', 'THB2'];
 
     /**
      * @var array Actions considered as debits/withdrawals.
@@ -455,7 +460,7 @@ class WithdrawController extends Controller
      */
     private function formatBalanceForResponse(float $balance, string $currency): float
     {
-        $specialCurrencies = ['IDR2', 'KRW2', 'MMK2', 'VND2', 'LAK2', 'KHR2'];
+        $specialCurrencies = ['IDR2', 'KRW2', 'MMK2', 'VND2', 'LAK2', 'KHR2', 'THB2'];
         $isSpecialCurrency = in_array($currency, $specialCurrencies);
         
         Log::debug('WithdrawController: formatBalanceForResponse', [
