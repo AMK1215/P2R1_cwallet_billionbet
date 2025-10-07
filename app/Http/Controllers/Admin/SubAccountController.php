@@ -581,14 +581,14 @@ class SubAccountController extends Controller
         $subAgent = Auth::user();      // The subagent making the request
         $agent = $subAgent->agent;     // The parent agent (who owns the balance)
 
-        $siteLink = $agent->parent->site_link ?? 'null';
+        $siteLink = $agent->site_link ?? 'null';
 
         $inputs = $request->validated();
         $inputs['amount'] = $inputs['amount'] ?? 0;
 
         try {
             DB::beginTransaction();
-            if (isset($inputs['amount']) && $inputs['amount'] > $agent->balance) {
+            if ($inputs['amount'] > $agent->balance) {
                 return redirect()->back()->with('error', 'Balance Insufficient');
             }
 
@@ -605,7 +605,8 @@ class SubAccountController extends Controller
 
             $user->roles()->sync(self::PLAYER_ROLE);
 
-            if (isset($inputs['amount'])) {
+            // Only process transfer if amount > 0
+            if ($inputs['amount'] > 0) {
                 $transferResult = app(CustomWalletService::class)->transfer($agent, $user, $inputs['amount'],
                     TransactionName::CreditTransfer, [
                         'note' => 'Initial Top Up from agent to new player',
@@ -616,21 +617,21 @@ class SubAccountController extends Controller
                 if (!$transferResult) {
                     throw new \Exception('Transfer failed');
                 }
-            }
 
-            // Log the transfer
-            TransferLog::create([
-                'from_user_id' => $agent->id,
-                'to_user_id' => $user->id,
-                'amount' => $inputs['amount'],
-                'type' => 'top_up',
-                'description' => 'Initial Top Up from agent to new player',
-                'meta' => [
-                    'transaction_type' => TransactionName::CreditTransfer->value,
-                    'old_balance' => $user->balance,
-                    'new_balance' => $user->balance + $inputs['amount'],
-                ],
-            ]);
+                // Log the transfer only when amount > 0
+                TransferLog::create([
+                    'from_user_id' => $agent->id,
+                    'to_user_id' => $user->id,
+                    'amount' => $inputs['amount'],
+                    'type' => 'top_up',
+                    'description' => 'Initial Top Up from agent to new player',
+                    'meta' => [
+                        'transaction_type' => TransactionName::CreditTransfer->value,
+                        'old_balance' => $user->balance,
+                        'new_balance' => $user->balance + $inputs['amount'],
+                    ],
+                ]);
+            }
 
             DB::commit();
 
