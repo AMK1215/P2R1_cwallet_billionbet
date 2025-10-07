@@ -2,11 +2,12 @@
 
 namespace Database\Seeders;
 
-use Carbon\Carbon;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
+use Carbon\Carbon;
+
 
 class PlayAceLIVE_CASINOSeeder extends Seeder
 {
@@ -29,7 +30,7 @@ class PlayAceLIVE_CASINOSeeder extends Seeder
                         'image_url' => $game['image_url'],
                         'provider_product_id' => $game['product_id'],
                         'game_type_id' => 2,
-                        'product_id' => 58,
+                        'product_id' => 43,
                         'product_code' => $game['product_code'],
                         'support_currency' => $game['support_currency'],
                         'status' => $game['status'],

@@ -15,7 +15,7 @@ class MrSlotyGamingWorldSlotSeeder extends Seeder
      */
     public function run()
     {
-        $jsonPath = base_path('app/Console/Commands/data/mrslot_gaming_world_slot.json');
+        $jsonPath = base_path('app/Console/Commands/data/mrslotty_gaming_world.json');
         $data = json_decode(File::get($jsonPath), true);
         $now = Carbon::now();
 
@@ -29,11 +29,11 @@ class MrSlotyGamingWorldSlotSeeder extends Seeder
                         'image_url' => $game['image_url'],
                         'provider_product_id' => $game['product_id'],
                         'game_type_id' => 1,
-                        'product_id' => 47,
+                        'product_id' => 34,
                         'product_code' => $game['product_code'],
                         'support_currency' => $game['support_currency'],
                         'status' => $game['status'],
-                        'provider' => 'MrSlotyFunta',
+                        'provider' => 'MrSlotyGamingWorld',
                         'game_list_status' => 1,
                         'created_at' => $now,
                         'updated_at' => $now,

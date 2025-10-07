@@ -2,20 +2,20 @@
 
 namespace Database\Seeders;
 
-use Carbon\Carbon;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
+use Carbon\Carbon;
 
-class HACKSAWOtherGameSeeder extends Seeder
+class EvolutionBigTimeGamingSlotSeeder extends Seeder
 {
     /**
      * Run the database seeds.
      */
     public function run()
     {
-        $jsonPath = base_path('app/Console/Commands/json_data/hack_saw.json');
+        $jsonPath = base_path('app/Console/Commands/data/big_time_gaming_slot.json');
         $data = json_decode(File::get($jsonPath), true);
         $now = Carbon::now();
 
@@ -28,12 +28,12 @@ class HACKSAWOtherGameSeeder extends Seeder
                         'game_type' => $game['game_type'],
                         'image_url' => $game['image_url'],
                         'provider_product_id' => $game['product_id'],
-                        'game_type_id' => 13,
-                        'product_id' => 65,
+                        'game_type_id' => 1,
+                        'product_id' => 22,
                         'product_code' => $game['product_code'],
                         'support_currency' => $game['support_currency'],
                         'status' => $game['status'],
-                        'provider' => 'HACKSAW',
+                        'provider' => 'BigTimeGaming',
                         'game_list_status' => 1,
                         'created_at' => $now,
                         'updated_at' => $now,

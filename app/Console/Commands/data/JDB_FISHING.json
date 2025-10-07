@@ -9,7 +9,7 @@
             "image_url": "https://images.gscplusmd.com/statics/production/images/games/1085/FISHING/7001.png",
             "product_id": 1195,
             "product_code": 1085,
-            "support_currency": "MMK",
+            "support_currency": "THB",
             "status": "ACTIVATED"
         },
         {
@@ -19,7 +19,7 @@
             "image_url": "https://images.gscplusmd.com/statics/production/images/games/1085/FISHING/7002.png",
             "product_id": 1195,
             "product_code": 1085,
-            "support_currency": "MMK",
+            "support_currency": "THB",
             "status": "ACTIVATED"
         },
         {
@@ -29,7 +29,7 @@
             "image_url": "https://images.gscplusmd.com/statics/production/images/games/1085/FISHING/7003.png",
             "product_id": 1195,
             "product_code": 1085,
-            "support_currency": "MMK",
+            "support_currency": "THB",
             "status": "ACTIVATED"
         },
         {
@@ -39,7 +39,7 @@
             "image_url": "https://images.gscplusmd.com/statics/production/images/games/1085/FISHING/7004.png",
             "product_id": 1195,
             "product_code": 1085,
-            "support_currency": "MMK",
+            "support_currency": "THB",
             "status": "ACTIVATED"
         },
         {
@@ -49,7 +49,7 @@
             "image_url": "https://images.gscplusmd.com/statics/production/images/games/1085/FISHING/7005.png",
             "product_id": 1195,
             "product_code": 1085,
-            "support_currency": "MMK",
+            "support_currency": "THB",
             "status": "ACTIVATED"
         },
         {
@@ -59,7 +59,7 @@
             "image_url": "https://images.gscplusmd.com/statics/production/images/games/1085/FISHING/7006.png",
             "product_id": 1195,
             "product_code": 1085,
-            "support_currency": "MMK",
+            "support_currency": "THB",
             "status": "ACTIVATED"
         },
         {
@@ -69,17 +69,7 @@
             "image_url": "https://images.gscplusmd.com/statics/production/images/games/1085/FISHING/7007.png",
             "product_id": 1195,
             "product_code": 1085,
-            "support_currency": "MMK",
-            "status": "ACTIVATED"
-        },
-        {
-            "game_code": "7008",
-            "game_name": "Fighter Fire",
-            "game_type": "FISHING",
-            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1085/FISHING/7008.png",
-            "product_id": 1195,
-            "product_code": 1085,
-            "support_currency": "MMK",
+            "support_currency": "THB",
             "status": "ACTIVATED"
         },
         {
@@ -89,7 +79,17 @@
             "image_url": "https://images.gscplusmd.com/statics/production/images/games/1085/FISHING/7009.png",
             "product_id": 1195,
             "product_code": 1085,
-            "support_currency": "MMK",
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "7008",
+            "game_name": "Fighter Fire",
+            "game_type": "FISHING",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1085/FISHING/7008.png",
+            "product_id": 1195,
+            "product_code": 1085,
+            "support_currency": "THB",
             "status": "ACTIVATED"
         },
         {
@@ -99,7 +99,7 @@
             "image_url": "https://images.gscplusmd.com/statics/production/images/games/1085/FISHING/7010.png",
             "product_id": 1195,
             "product_code": 1085,
-            "support_currency": "MMK",
+            "support_currency": "THB",
             "status": "ACTIVATED"
         }
     ],

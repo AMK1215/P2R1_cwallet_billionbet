@@ -2,20 +2,20 @@
 
 namespace Database\Seeders;
 
-use Carbon\Carbon;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
+use Carbon\Carbon;
 
-class AWCSlotGameSeeder extends Seeder
+class EvolutionNetenSlotSeeder extends Seeder
 {
     /**
      * Run the database seeds.
      */
     public function run()
     {
-        $jsonPath = base_path('app/Console/Commands/data/awc_slot.json');
+        $jsonPath = base_path('app/Console/Commands/data/neten_slot.json');
         $data = json_decode(File::get($jsonPath), true);
         $now = Carbon::now();
 
@@ -29,11 +29,11 @@ class AWCSlotGameSeeder extends Seeder
                         'image_url' => $game['image_url'],
                         'provider_product_id' => $game['product_id'],
                         'game_type_id' => 1,
-                        'product_id' => 26,
+                        'product_id' => 24,
                         'product_code' => $game['product_code'],
                         'support_currency' => $game['support_currency'],
                         'status' => $game['status'],
-                        'provider' => 'AWC-FASTSPIN',
+                        'provider' => 'Neten',
                         'game_list_status' => 1,
                         'created_at' => $now,
                         'updated_at' => $now,

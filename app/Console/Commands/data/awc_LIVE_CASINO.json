@@ -1,0 +1,121 @@
+{
+    "code": 0,
+    "message": "",
+    "provider_games": [
+        {
+            "game_code": "MX-LIVE-001",
+            "game_name": "Baccarat Classic",
+            "game_type": "LIVE_CASINO",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1022/LIVE_CASINO/MX-LIVE-001.png",
+            "product_id": 1166,
+            "product_code": 1022,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "MX-LIVE-002",
+            "game_name": "Baccarat",
+            "game_type": "LIVE_CASINO",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1022/LIVE_CASINO/MX-LIVE-002.png",
+            "product_id": 1166,
+            "product_code": 1022,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "MX-LIVE-009",
+            "game_name": "Roulette",
+            "game_type": "LIVE_CASINO",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1022/LIVE_CASINO/MX-LIVE-009.png",
+            "product_id": 1166,
+            "product_code": 1022,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "MX-LIVE-011",
+            "game_name": "Teen Patti 2020",
+            "game_type": "LIVE_CASINO",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1022/LIVE_CASINO/MX-LIVE-011.png",
+            "product_id": 1166,
+            "product_code": 1022,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "MX-LIVE-012",
+            "game_name": "Extra Andar Bahar",
+            "game_type": "LIVE_CASINO",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1022/LIVE_CASINO/MX-LIVE-012.png",
+            "product_id": 1166,
+            "product_code": 1022,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "MX-LIVE-014",
+            "game_name": "Thai Hi Lo",
+            "game_type": "LIVE_CASINO",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1022/LIVE_CASINO/MX-LIVE-014.png",
+            "product_id": 1166,
+            "product_code": 1022,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "MX-LIVE-015",
+            "game_name": "Thai Fish Prawn Crab",
+            "game_type": "LIVE_CASINO",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1022/LIVE_CASINO/MX-LIVE-015.png",
+            "product_id": 1166,
+            "product_code": 1022,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "MX-LIVE-016",
+            "game_name": "Extra Sicbo",
+            "game_type": "LIVE_CASINO",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1022/LIVE_CASINO/MX-LIVE-016.png",
+            "product_id": 1166,
+            "product_code": 1022,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "MX-LIVE-017",
+            "game_name": "Sedie",
+            "game_type": "LIVE_CASINO",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1022/LIVE_CASINO/MX-LIVE-017.png",
+            "product_id": 1166,
+            "product_code": 1022,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "MX-LIVE-006",
+            "game_name": "DragonTiger",
+            "game_type": "LIVE_CASINO",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1022/LIVE_CASINO/MX-LIVE-006.png",
+            "product_id": 1166,
+            "product_code": 1022,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "MX-LIVE-018",
+            "game_name": "Pok Deng",
+            "game_type": "LIVE_CASINO",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1022/LIVE_CASINO/MX-LIVE-018.png",
+            "product_id": 1166,
+            "product_code": 1022,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        }
+    ],
+    "pagination": {
+        "size": 0,
+        "offset": 0,
+        "total": "12"
+    }
+}

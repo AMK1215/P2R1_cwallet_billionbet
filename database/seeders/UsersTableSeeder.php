@@ -26,7 +26,7 @@ class UsersTableSeeder extends Seeder
             $owner = $this->createUser(
                 UserType::Owner,
                 'Owner',
-                'OWNER001',
+                'billionbet',
                 '09123456789',
                 null,
                 'OWNER'.Str::random(6)

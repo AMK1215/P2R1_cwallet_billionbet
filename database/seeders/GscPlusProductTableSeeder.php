@@ -15,7 +15,7 @@ class GscPlusProductTableSeeder extends Seeder
     public function run(): void
     {
         // Read the JSON file
-        $jsonPath = base_path('app/Console/Commands/data/production_product_list.json');
+        $jsonPath = base_path('app/Console/Commands/data/thb_product_production.json');
         $jsonData = json_decode(File::get($jsonPath), true);
 
         // Check if the JSON data is valid

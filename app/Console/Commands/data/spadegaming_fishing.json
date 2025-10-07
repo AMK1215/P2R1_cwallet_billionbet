@@ -3,23 +3,23 @@
     "message": "",
     "provider_games": [
         {
+            "game_code": "F-ZP01",
+            "game_name": "Zombie Party",
+            "game_type": "FISHING",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1221/FISHING/F-ZP01.png",
+            "product_id": 1328,
+            "product_code": 1221,
+            "support_currency": "COP,HKD,MXN,TRY,AUD,ARS,EUR,BRL,KRW,IDR,SGD,VND,ZAR,NGN,RUB,MMK2,NPR,THB,AED,NZD,BDT,JPY,MYR,INR,USD,GBP,CNY,KHR,PHP,TND,PKR,NOK",
+            "status": "ACTIVATED"
+        },
+        {
             "game_code": "F-AH01",
             "game_name": "Alien Hunter",
             "game_type": "FISHING",
             "image_url": "https://images.gscplusmd.com/statics/production/images/games/1221/FISHING/F-AH01.png",
             "product_id": 1328,
             "product_code": 1221,
-            "support_currency": "SGD,VND,NGN,RUB,INR,PKR,KRW,CNY,TND,COP,ARS,HKD,AED,AUD,MMK2,BDT,JPY,IDR,MYR,USD,THB,NPR,PHP,BRL,NOK,TRY,GBP,KHR,EUR,ZAR,MXN",
-            "status": "ACTIVATED"
-        },
-        {
-            "game_code": "F-FL01",
-            "game_name": "Fishing Legend",
-            "game_type": "FISHING",
-            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1221/FISHING/F-FL01.png",
-            "product_id": 1328,
-            "product_code": 1221,
-            "support_currency": "SGD,VND,NGN,RUB,INR,PKR,KRW,CNY,TND,COP,ARS,HKD,AED,AUD,MMK2,BDT,JPY,IDR,MYR,USD,THB,NPR,PHP,BRL,NOK,TRY,GBP,KHR,EUR,ZAR,MXN",
+            "support_currency": "COP,HKD,MXN,TRY,AUD,ARS,EUR,BRL,KRW,IDR,SGD,VND,ZAR,NGN,RUB,MMK2,NPR,THB,AED,NZD,BDT,JPY,MYR,INR,USD,GBP,CNY,KHR,PHP,TND,PKR,NOK",
             "status": "ACTIVATED"
         },
         {
@@ -29,7 +29,7 @@
             "image_url": "https://images.gscplusmd.com/statics/production/images/games/1221/FISHING/F-SF01.png",
             "product_id": 1328,
             "product_code": 1221,
-            "support_currency": "SGD,VND,NGN,RUB,INR,PKR,KRW,CNY,TND,COP,ARS,HKD,AED,AUD,MMK2,BDT,JPY,IDR,MYR,USD,THB,NPR,PHP,BRL,NOK,TRY,GBP,KHR,EUR,ZAR,MXN",
+            "support_currency": "COP,HKD,MXN,TRY,AUD,ARS,EUR,BRL,KRW,IDR,SGD,VND,ZAR,NGN,RUB,MMK2,NPR,THB,AED,NZD,BDT,JPY,MYR,INR,USD,GBP,CNY,KHR,PHP,TND,PKR,NOK",
             "status": "ACTIVATED"
         },
         {
@@ -39,17 +39,17 @@
             "image_url": "https://images.gscplusmd.com/statics/production/images/games/1221/FISHING/F-SF02.png",
             "product_id": 1328,
             "product_code": 1221,
-            "support_currency": "SGD,VND,NGN,RUB,INR,PKR,KRW,CNY,TND,COP,ARS,HKD,AED,AUD,MMK2,BDT,JPY,IDR,MYR,USD,THB,NPR,PHP,BRL,NOK,TRY,GBP,KHR,EUR,ZAR,MXN",
+            "support_currency": "COP,HKD,MXN,TRY,AUD,ARS,EUR,BRL,KRW,IDR,SGD,VND,ZAR,NGN,RUB,MMK2,NPR,THB,AED,NZD,BDT,JPY,MYR,INR,USD,GBP,CNY,KHR,PHP,TND,PKR,NOK",
             "status": "ACTIVATED"
         },
         {
-            "game_code": "F-ZP01",
-            "game_name": "Zombie Party",
+            "game_code": "F-FL01",
+            "game_name": "Fishing Legend",
             "game_type": "FISHING",
-            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1221/FISHING/F-ZP01.png",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1221/FISHING/F-FL01.png",
             "product_id": 1328,
             "product_code": 1221,
-            "support_currency": "SGD,VND,NGN,RUB,INR,PKR,KRW,CNY,TND,COP,ARS,HKD,AED,AUD,MMK2,BDT,JPY,IDR,MYR,USD,THB,NPR,PHP,BRL,NOK,TRY,GBP,KHR,EUR,ZAR,MXN",
+            "support_currency": "COP,HKD,MXN,TRY,AUD,ARS,EUR,BRL,KRW,IDR,SGD,VND,ZAR,NGN,RUB,MMK2,NPR,THB,AED,NZD,BDT,JPY,MYR,INR,USD,GBP,CNY,KHR,PHP,TND,PKR,NOK",
             "status": "ACTIVATED"
         }
     ],

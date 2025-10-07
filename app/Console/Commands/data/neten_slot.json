@@ -1,0 +1,2161 @@
+{
+    "code": 0,
+    "message": "",
+    "provider_games": [
+        {
+            "game_code": "archangels000000",
+            "game_name": "Archangels Salvation",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/archangels000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "jumanji000000000",
+            "game_name": "Jumanji",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/jumanji000000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "neonstaxx0000000",
+            "game_name": "Neon Staxx",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/neonstaxx0000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "flowerschristmas",
+            "game_name": "Flowers Christmas Edition",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/flowerschristmas.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "goldenrealmr88f0",
+            "game_name": "Golden Realms_R88_F0 DNT",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/goldenrealmr88f0.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "DEACTIVATED"
+        },
+        {
+            "game_code": "rageoftheseas000",
+            "game_name": "Rage of the Seas",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/rageoftheseas000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "jokerpro00000000",
+            "game_name": "Joker Pro",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/jokerpro00000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "streetfighter2f1",
+            "game_name": "Street Fighter II: The World Warrior Slot",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/streetfighter2f1.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "hiddencoiofegypt",
+            "game_name": "Coins of Egypt",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/hiddencoiofegypt.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "grandspinn000000",
+            "game_name": "Grand Spinn",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/grandspinn000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "invisibleman0000",
+            "game_name": "The Invisible Man",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/invisibleman0000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "thrilltogrir96f1",
+            "game_name": "Thrill to Grill",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/thrilltogrir96f1.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "victorious000000",
+            "game_name": "Victorious",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/victorious000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "knightrider00000",
+            "game_name": "Knight Rider Video Slot",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/knightrider00000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "spinsane00000000",
+            "game_name": "Spinsane",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/spinsane00000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "rome000000000000",
+            "game_name": "Rome: The Golden Age",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/rome000000000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "DEACTIVATED"
+        },
+        {
+            "game_code": "koiprincess00000",
+            "game_name": "Koi Princess",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/koiprincess00000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "bloodsuckers2000",
+            "game_name": "Blood Suckers II",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/bloodsuckers2000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "goldenrealmr94f0",
+            "game_name": "Golden Realms_R94_F0 DNT",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/goldenrealmr94f0.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "DEACTIVATED"
+        },
+        {
+            "game_code": "ozzy000000000000",
+            "game_name": "Ozzy Osbourne Video Slots",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/ozzy000000000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "swipe00000000000",
+            "game_name": "Swipe and Roll",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/swipe00000000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "cashomatic000000",
+            "game_name": "Cash-o-Matic",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/cashomatic000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "bigbangboomr96f1",
+            "game_name": "Big Bang Boom",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/bigbangboomr96f1.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "pyramid000000000",
+            "game_name": "Pyramid: Quest for Immortality",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/pyramid000000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "jimihendrix00000",
+            "game_name": "Jimi Hendrix Online Slot",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/jimihendrix00000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "corneliusf100000",
+            "game_name": "Cornelius",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/corneliusf100000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "hotline200000000",
+            "game_name": "Hotline 2",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/hotline200000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "DEACTIVATED"
+        },
+        {
+            "game_code": "riseofmaya000000",
+            "game_name": "Rise of Maya",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/riseofmaya000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "kingofslots00000",
+            "game_name": "King of Slots",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/kingofslots00000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "cursedtreasr94f0",
+            "game_name": "Cursed Treasure_R94_F0 DNT",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/cursedtreasr94f0.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "DEACTIVATED"
+        },
+        {
+            "game_code": "oceanstreasure00",
+            "game_name": "Ocean's Treasure",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/oceanstreasure00.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "jackhammer3r96f1",
+            "game_name": "Jack Hammer™ 3: Diamond Affair",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/jackhammer3r96f1.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "finn000000000000",
+            "game_name": "Finn and the Swirly Spin",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/finn000000000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "reelsteal0000000",
+            "game_name": "Reel Steal",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/reelsteal0000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "witchcrafacademy",
+            "game_name": "Witchcraft Academy",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/witchcrafacademy.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "wildworlds000000",
+            "game_name": "Wild Worlds",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/wildworlds000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "reelrush20000000",
+            "game_name": "Reel Rush 2",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/reelrush20000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "discodanny000000",
+            "game_name": "Disco Danny",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/discodanny000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "druidsdream00000",
+            "game_name": "Druids' Dream",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/druidsdream00000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "longpao000000000",
+            "game_name": "Long Pao",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/longpao000000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "highlights000000",
+            "game_name": "Secrets of Atlantis",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/highlights000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "cupcakesf1000000",
+            "game_name": "Cupcakes",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/cupcakesf1000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "junglespirit0000",
+            "game_name": "Jungle Spirit: Call of the Wild",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/junglespirit0000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "junglespirir94f1",
+            "game_name": "Jungle Spirit Megaways_R94_F1 DNT",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/junglespirir94f1.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "DEACTIVATED"
+        },
+        {
+            "game_code": "divinemegaways00",
+            "game_name": "Divine Fortune Megaways",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/divinemegaways00.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "dazzlemwr3000000",
+            "game_name": "Dazzle Me Megaways",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/dazzlemwr3000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "halloweenjack000",
+            "game_name": "Halloween Jack",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/halloweenjack000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "scruffyduck00000",
+            "game_name": "Scruffy Duck",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/scruffyduck00000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "hotline000000000",
+            "game_name": "Hotline",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/hotline000000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "gorillakingdom00",
+            "game_name": "Gorilla Kingdom",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/gorillakingdom00.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "asgardianstones0",
+            "game_name": "Asgardian Stones",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/asgardianstones0.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "elements00000000",
+            "game_name": "Elements: The Awakening",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/elements00000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "dazzlemw00000000",
+            "game_name": "Dazzle Me Megaways",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/dazzlemw00000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "DEACTIVATED"
+        },
+        {
+            "game_code": "goldentavern0000",
+            "game_name": "Finn's Golden Tavern",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/goldentavern0000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "serengetikings00",
+            "game_name": "Serengeti Kings",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/serengetikings00.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "starbursttremef1",
+            "game_name": "Starburst XXXtreme",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/starbursttremef1.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "magicmaidcafe000",
+            "game_name": "Magic Maid Cafe",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/magicmaidcafe000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "darkking00000000",
+            "game_name": "Dark King: Forbidden Riches",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/darkking00000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "goldenrealmr94f1",
+            "game_name": "Golden Realms_R94_F1 DNT",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/goldenrealmr94f1.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "DEACTIVATED"
+        },
+        {
+            "game_code": "robinhood0000000",
+            "game_name": "Robin Hood: Shifting Riches",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/robinhood0000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "wingsofriches000",
+            "game_name": "Wings of Riches",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/wingsofriches000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "turnyourfortune0",
+            "game_name": "Turn Your Fortune",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/turnyourfortune0.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "bloodsuckers0000",
+            "game_name": "Blood Suckers",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/bloodsuckers0000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "DEACTIVATED"
+        },
+        {
+            "game_code": "cursedtreasr96f0",
+            "game_name": "Cursed Treasure_R96_F0 DNT",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/cursedtreasr96f0.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "DEACTIVATED"
+        },
+        {
+            "game_code": "milkshakexxr96f1",
+            "game_name": "Milkshake XXXtreme",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/milkshakexxr96f1.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "hooksheroes00000",
+            "game_name": "Hook's Heroes",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/hooksheroes00000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "beehivebonanza00",
+            "game_name": "Bee Hive Bonanza",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/beehivebonanza00.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "fruitshopawaysr1",
+            "game_name": "Fruit Shop Megaways",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/fruitshopawaysr1.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "eggomatic0000000",
+            "game_name": "EggOMatic",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/eggomatic0000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "elkhunterr96f100",
+            "game_name": "Elk Hunter",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/elkhunterr96f100.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "superstrikerf100",
+            "game_name": "Super Striker",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/superstrikerf100.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "scudamore0000000",
+            "game_name": "Scudamore's Super Stakes",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/scudamore0000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "blacklagoon00000",
+            "game_name": "Creature from the Black Lagoon",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/blacklagoon00000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "twinspin00000000",
+            "game_name": "Twin Spin",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/twinspin00000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "arcane0000000000",
+            "game_name": "Arcane: Reel Chaos",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/arcane0000000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "warlords00000000",
+            "game_name": "Warlords: Crystals of Power",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/warlords00000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "junglespirir88f0",
+            "game_name": "Jungle Spirit Megaways_R88_F0 DNT",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/junglespirir88f0.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "DEACTIVATED"
+        },
+        {
+            "game_code": "eastseadrgonking",
+            "game_name": "East Sea Dragon King",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/eastseadrgonking.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "moonshine0000000",
+            "game_name": "Moonshine Riches",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/moonshine0000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "goldenrealmr96f0",
+            "game_name": "Golden Realms_R96_F0 DNT",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/goldenrealmr96f0.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "DEACTIVATED"
+        },
+        {
+            "game_code": "fairymirror00000",
+            "game_name": "Fairytale Legends: Mirror Mirror",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/fairymirror00000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "sweetyhoneyfruit",
+            "game_name": "Sweety Honey Fruity",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/sweetyhoneyfruit.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "berryburst000000",
+            "game_name": "Berryburst",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/berryburst000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "fruitsne00000000",
+            "game_name": "Fruit Case",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/fruitsne00000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "codexoffortune00",
+            "game_name": "Codex of Fortune",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/codexoffortune00.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "mythicmaiden0000",
+            "game_name": "Mythic Maiden",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/mythicmaiden0000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "godsofgold000000",
+            "game_name": "Gods Of Gold: InfiniReels",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/godsofgold000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "willyshotchillie",
+            "game_name": "Willy's Hot Chillies",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/willyshotchillie.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "jackandbeanstalk",
+            "game_name": "Jack and the Beanstalk",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/jackandbeanstalk.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "jackhammer000000",
+            "game_name": "Jack Hammer",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/jackhammer000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "jackhammer200000",
+            "game_name": "Jack Hammer 2: Fishy Business",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/jackhammer200000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "romer20000000000",
+            "game_name": "Rome: The Golden Age",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/romer20000000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "football00000000",
+            "game_name": "Football: Champions Cup",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/football00000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "starburst0000000",
+            "game_name": "Starburst",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/starburst0000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "twinspindeluxe00",
+            "game_name": "Twin Spin DeLuxe",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/twinspindeluxe00.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "doublestacks0000",
+            "game_name": "Double Stacks",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/doublestacks0000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "themepark0000000",
+            "game_name": "Theme Park: Tickets of Fortune",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/themepark0000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "firesiege0000000",
+            "game_name": "Fire Siege Fortress",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/firesiege0000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "junglespirir94f0",
+            "game_name": "Jungle Spirit Megaways_R94_F0 DNT",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/junglespirir94f0.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "DEACTIVATED"
+        },
+        {
+            "game_code": "jinglespin000000",
+            "game_name": "Jingle Spin",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/jinglespin000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "spacewars0000000",
+            "game_name": "Space Wars",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/spacewars0000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "luckyangler00000",
+            "game_name": "Lucky Angler: A Snowy Catch",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/luckyangler00000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "letitburnr96f100",
+            "game_name": "Let It Burn",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/letitburnr96f100.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "alohaxmas0000000",
+            "game_name": "Aloha! Christmas",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/alohaxmas0000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "richesofmidgard0",
+            "game_name": "Riches of Midgard: Land and Expand",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/richesofmidgard0.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "DEACTIVATED"
+        },
+        {
+            "game_code": "junglespirir96f1",
+            "game_name": "Jungle Spirit Megaways™",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/junglespirir96f1.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "goldengrimoire00",
+            "game_name": "Golden Grimoire",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/goldengrimoire00.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "bollywoodstory00",
+            "game_name": "Bollywood Story",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/bollywoodstory00.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "tacofuryr96f1000",
+            "game_name": "Taco Fury XXXtreme",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/tacofuryr96f1000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "copycats00000000",
+            "game_name": "Copy Cats",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/copycats00000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "shangrila0000000",
+            "game_name": "The Legend of Shangri-La: Cluster Pays",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/shangrila0000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "twinhappiness000",
+            "game_name": "Twin Happiness",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/twinhappiness000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "goldenrealmr96f1",
+            "game_name": "Golden Realms",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/goldenrealmr96f1.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "vikings000000000",
+            "game_name": "Vikings Video Slot",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/vikings000000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "steamtower000000",
+            "game_name": "Steam Tower",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/steamtower000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "flowers000000000",
+            "game_name": "Flowers",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/flowers000000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "cursedtreasr96f1",
+            "game_name": "Cursed Treasure",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/cursedtreasr96f1.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "richesofmdgardf1",
+            "game_name": "Riches of Midgard: Land and Expand",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/richesofmdgardf1.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "eldorado00000000",
+            "game_name": "Gonzo's Quest",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/eldorado00000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "cursedtreasr94f1",
+            "game_name": "Cursed Treasure_R94_F1 DNT",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/cursedtreasr94f1.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "DEACTIVATED"
+        },
+        {
+            "game_code": "narcos0000000000",
+            "game_name": "Narcos",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/narcos0000000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "irishpotluck0000",
+            "game_name": "Irish Pot Luck",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/irishpotluck0000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "twinspinextr96f1",
+            "game_name": "Twin Spin XXXtreme",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/twinspinextr96f1.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "alohaj0r00000000",
+            "game_name": "Aloha! Cluster Pays",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/alohaj0r00000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "finncandyspr96f1",
+            "game_name": "Finn and the Candy Spin",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/finncandyspr96f1.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "whosthebride0000",
+            "game_name": "Who's the Bride",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/whosthebride0000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "deadoralive2fb00",
+            "game_name": "Dead or Alive 2 Feature Buy",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/deadoralive2fb00.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "colossalpinatas0",
+            "game_name": "Spinata Grande",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/colossalpinatas0.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "piggyriches00000",
+            "game_name": "Piggy Riches",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/piggyriches00000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "wildwildwest0000",
+            "game_name": "Wild Wild West: The Great Train Heist",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/wildwildwest0000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "reelrush00000000",
+            "game_name": "Reel Rush",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/reelrush00000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "buckshotwilr96f1",
+            "game_name": "Buckshot Wilds",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/buckshotwilr96f1.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "berryburstmax000",
+            "game_name": "Berryburst MAX",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/berryburstmax000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "bustersboesr96f1",
+            "game_name": "Buster's Bones",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/bustersboesr96f1.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "deadoralive20000",
+            "game_name": "Dead or Alive 2",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/deadoralive20000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "motorhead0000000",
+            "game_name": "Motorhead Video Slot",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/motorhead0000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "kingof3kingdoms0",
+            "game_name": "King of 3 Kingdoms",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/kingof3kingdoms0.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "fortunerangers00",
+            "game_name": "Fortune Rangers",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/fortunerangers00.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "wildotron3000000",
+            "game_name": "Wild-O-Tron 3000",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/wildotron3000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "wolfcub000000000",
+            "game_name": "Wolf Cub",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/wolfcub000000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "templeofnudges00",
+            "game_name": "Temple of Nudges",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/templeofnudges00.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "strollingstaxx00",
+            "game_name": "Strolling Staxx: Cubic Fruits",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/strollingstaxx00.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "rager96f10000000",
+            "game_name": "Rage",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/rager96f10000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "ghostpirates0000",
+            "game_name": "Ghost Pirates",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/ghostpirates0000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "fireflies0000000",
+            "game_name": "Lights",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/fireflies0000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "silverback000000",
+            "game_name": "Silverback Gold",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/silverback000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "butterflystaxx00",
+            "game_name": "Butterfly Staxx",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/butterflystaxx00.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "wonderlanotector",
+            "game_name": "Wonderland Protector",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/wonderlanotector.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "wizards000000000",
+            "game_name": "Spellcast",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/wizards000000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "trollpot00000000",
+            "game_name": "Trollpot 5000",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/trollpot00000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "wildbazaar000000",
+            "game_name": "Wild Bazaar",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/wildbazaar000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "junglespirir96f0",
+            "game_name": "Jungle Spirit Megaways_R96_F0 DNT",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/junglespirir96f0.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "DEACTIVATED"
+        },
+        {
+            "game_code": "wondersofmasr2f0",
+            "game_name": "Wonders of Christmas",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/wondersofmasr2f0.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "hellskitchen0000",
+            "game_name": "Gordon Ramsay Hell's Kitchen",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/hellskitchen0000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "DEACTIVATED"
+        },
+        {
+            "game_code": "wildturkey000000",
+            "game_name": "Wild Turkey",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/wildturkey000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "reefraiderr30000",
+            "game_name": "Reef Raider",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/reefraiderr30000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "fruitshopmegaway",
+            "game_name": "Fruit Shop Megaways",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/fruitshopmegaway.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "DEACTIVATED"
+        },
+        {
+            "game_code": "bloodsuckersj0r2",
+            "game_name": "Blood Suckers",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/bloodsuckersj0r2.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "multipliermayhem",
+            "game_name": "Drive: Multiplier Mayhem",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/multipliermayhem.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "thewolfsnight000",
+            "game_name": "The Wolf's Bane",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/thewolfsnight000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "fairyred00000000",
+            "game_name": "Fairytale Legends: Red Riding Hood",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/fairyred00000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "wilderland000000",
+            "game_name": "Wilderland",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/wilderland000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "jackandbeanr96f1",
+            "game_name": "Jack and the Beanstalk Remastered",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/jackandbeanr96f1.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "cashnoire0000000",
+            "game_name": "Cash Noire",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/cashnoire0000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "gunsnroses000000",
+            "game_name": "Guns N' Roses Video Slots",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/gunsnroses000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "hellskitchenr300",
+            "game_name": "Gordon Ramsay Hell's Kitchen",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/hellskitchenr300.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "hotline2f1g10000",
+            "game_name": "Hotline 2",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/hotline2f1g10000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "dazzle0000000000",
+            "game_name": "Dazzle Me",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/dazzle0000000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "wishmasteroct000",
+            "game_name": "The Wish Master",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/wishmasteroct000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "101candiesr96f10",
+            "game_name": "101 Candies",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/101candiesr96f10.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "parthenonr100000",
+            "game_name": "Parthenon: Quest for Immortality",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/parthenonr100000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "fruitshop0000000",
+            "game_name": "Fruit Shop",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/fruitshop0000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "deadoralive00000",
+            "game_name": "Dead or Alive",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/deadoralive00000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "funkmaster000000",
+            "game_name": "Funk Master",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/funkmaster000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "secretsofchristm",
+            "game_name": "Secrets of Christmas",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/secretsofchristm.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "happyriches00000",
+            "game_name": "Happy Riches",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/happyriches00000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "santavsrudolf000",
+            "game_name": "Santa vs Rudolf",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/santavsrudolf000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "dracula000000000",
+            "game_name": "Dracula",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/dracula000000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "butterflystaxx20",
+            "game_name": "Butterfly Staxx 2",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/butterflystaxx20.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "secretofthestone",
+            "game_name": "Secret of the Stones",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/secretofthestone.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "parthenon0000000",
+            "game_name": "Parthenon: Quest for Immortality",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/parthenon0000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "DEACTIVATED"
+        },
+        {
+            "game_code": "fruitshopchristm",
+            "game_name": "Fruit Shop Christmas Edition",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/fruitshopchristm.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "excalibur0000000",
+            "game_name": "Excalibur",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/excalibur0000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "lostrelics000000",
+            "game_name": "Lost Relics",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/lostrelics000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "magicportals0000",
+            "game_name": "Magic Portals",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/magicportals0000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "twinspinmw000000",
+            "game_name": "Twin Spin Megaways",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/twinspinmw000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "piratefrotheeast",
+            "game_name": "Pirate From the East",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/piratefrotheeast.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "sparks0000000000",
+            "game_name": "Sparks",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/sparks0000000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "monkeys000000000",
+            "game_name": "Go Bananas!",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/monkeys000000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "crabtrapr96f1000",
+            "game_name": "Crab Trap",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/crabtrapr96f1000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "streetfighter200",
+            "game_name": "Street Fighter II: The World Warrior Slot",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/streetfighter200.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "DEACTIVATED"
+        },
+        {
+            "game_code": "spacewars2000000",
+            "game_name": "Space Wars 2",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/spacewars2000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "stickers00000000",
+            "game_name": "Stickers",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/stickers00000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "wildwater0000000",
+            "game_name": "Wild Water",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/wildwater0000000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "jewelfruits00000",
+            "game_name": "Fruit Spin",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/jewelfruits00000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "gonzosgoldr30000",
+            "game_name": "Gonzo's Gold",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/gonzosgoldr30000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "fairyhansel00000",
+            "game_name": "Fairytale Legends: Hansel and Gretel",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/fairyhansel00000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "superstarsf10000",
+            "game_name": "Superstars",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/superstarsf10000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "bigmoneywher96f1",
+            "game_name": "Big Money Wheel",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/bigmoneywher96f1.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "fruitblazef1r300",
+            "game_name": "Fruit Blaze",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/fruitblazef1r300.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "goldenwheelr96f1",
+            "game_name": "Golden Wheels of Egypt",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/goldenwheelr96f1.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "lockandpopr96f10",
+            "game_name": "Lock And Pop",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/lockandpopr96f10.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "royalnutsr96f100",
+            "game_name": "Royal Nuts",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/royalnutsr96f100.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "spacewarsmwr96f1",
+            "game_name": "Space Wars Megaways XXXTreme",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/spacewarsmwr96f1.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "corneliusmir96f1",
+            "game_name": "Cornelius Milk Hunter Megaways",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/corneliusmir96f1.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "twisterr96f10000",
+            "game_name": "Twister",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/twisterr96f10000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "rabidrandyr96000",
+            "game_name": "Rabid Randy",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/rabidrandyr96000.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "starburstgar96f1",
+            "game_name": "Starburst Galaxy",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/starburstgar96f1.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "dazzlemechrr96f1",
+            "game_name": "Dazzle Me Christmas",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/dazzlemechrr96f1.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "wildminingxx96f1",
+            "game_name": "Wild Mining XXXtreme",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/wildminingxx96f1.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "finndragontr96f1",
+            "game_name": "Finn and the Dragon Tales",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/finndragontr96f1.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "goldeneggirs96f1",
+            "game_name": "Golden Egg Invaders",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/goldeneggirs96f1.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "divinefortur96f1",
+            "game_name": "Divine Fortune Black",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/divinefortur96f1.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "reelrushxxxr96f1",
+            "game_name": "Reel Rush XXXtreme",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/reelrushxxxr96f1.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        },
+        {
+            "game_code": "jackhammer4r96f1",
+            "game_name": "Jack Hammer™ 4: Chasing the Dragon",
+            "game_type": "SLOT",
+            "image_url": "https://images.gscplusmd.com/statics/production/images/games/1168/SLOT/jackhammer4r96f1.png",
+            "product_id": 1252,
+            "product_code": 1168,
+            "support_currency": "THB",
+            "status": "ACTIVATED"
+        }
+    ],
+    "pagination": {
+        "size": 0,
+        "offset": 0,
+        "total": "216"
+    }
+}

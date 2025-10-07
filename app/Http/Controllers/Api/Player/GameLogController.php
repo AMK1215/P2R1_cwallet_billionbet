@@ -23,9 +23,9 @@ class GameLogController extends Controller
             ->select(
                 'game_name',
                 DB::raw('COUNT(*) as spin_count'),
-                DB::raw('SUM(bet_amount) as turnover'),
-                DB::raw('SUM(prize_amount) as total_payout'),
-                DB::raw('SUM(prize_amount) - SUM(bet_amount) as win_loss')
+                DB::raw("SUM(CASE WHEN currency = 'THB2' THEN bet_amount / 1000 ELSE bet_amount END) as turnover"),
+                DB::raw("SUM(CASE WHEN currency = 'THB2' THEN prize_amount / 1000 ELSE prize_amount END) as total_payout"),
+                DB::raw("SUM(CASE WHEN currency = 'THB2' THEN prize_amount / 1000 ELSE prize_amount END) - SUM(CASE WHEN currency = 'THB2' THEN bet_amount / 1000 ELSE bet_amount END) as win_loss")
             )
             ->groupBy('game_name')
             ->orderBy('game_name');
