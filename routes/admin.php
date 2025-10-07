@@ -300,6 +300,17 @@ Route::group([
         Route::get('/deadlock-active', [App\Http\Controllers\Admin\DeadlockController::class, 'getActive'])->name('deadlock-active');
         Route::post('/deadlock-cleanup', [App\Http\Controllers\Admin\DeadlockController::class, 'cleanup'])->name('deadlock-cleanup');
         Route::get('/deadlock-export', [App\Http\Controllers\Admin\DeadlockController::class, 'export'])->name('deadlock-export');
+        
+        // System Log functionality (Admin only - not for clients)
+        Route::get('/system-logs', [App\Http\Controllers\Admin\SystemLogController::class, 'index'])->name('system-logs');
+        Route::get('/system-transaction-logs', [App\Http\Controllers\Admin\SystemLogController::class, 'transactionLogs'])->name('system-transaction-logs');
+        Route::get('/system-cleanup-stats', [App\Http\Controllers\Admin\SystemLogController::class, 'getCleanupStats'])->name('system-cleanup-stats');
+        Route::get('/system-cleanup-preview', [App\Http\Controllers\Admin\SystemLogController::class, 'getCleanupPreview'])->name('system-cleanup-preview');
+        Route::post('/system-cleanup', [App\Http\Controllers\Admin\SystemLogController::class, 'performCleanup'])->name('system-cleanup');
+        Route::post('/system-optimize', [App\Http\Controllers\Admin\SystemLogController::class, 'optimizeTable'])->name('system-optimize');
+        Route::get('/system-export-logs', [App\Http\Controllers\Admin\SystemLogController::class, 'exportTransactionLogs'])->name('system-export-logs');
+        Route::get('/system-cleanup-settings', [App\Http\Controllers\Admin\SystemLogController::class, 'getCleanupSettings'])->name('system-cleanup-settings');
+        Route::post('/system-cleanup-settings', [App\Http\Controllers\Admin\SystemLogController::class, 'updateCleanupSettings'])->name('system-cleanup-settings-update');
     });
 
     // Transaction Archive Management (Owner/SystemWallet only)
