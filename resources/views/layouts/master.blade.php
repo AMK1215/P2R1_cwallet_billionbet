@@ -271,10 +271,10 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="{{ route('admin.logs.system-logs') }}"
-                                        class="nav-link {{ Route::current()->getName() == 'admin.logs.system-logs' ? 'active' : '' }}">
+                                    <a href="{{ route('admin.logs.system-admin-logs') }}"
+                                        class="nav-link {{ Route::current()->getName() == 'admin.logs.system-admin-logs' ? 'active' : '' }}">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>System Logs</p>
+                                        <p>System Admin Logs</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">

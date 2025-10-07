@@ -302,7 +302,7 @@ Route::group([
         Route::get('/deadlock-export', [App\Http\Controllers\Admin\DeadlockController::class, 'export'])->name('deadlock-export');
         
         // System Log functionality (Admin only - not for clients)
-        Route::get('/system-logs', [App\Http\Controllers\Admin\SystemLogController::class, 'index'])->name('system-logs');
+        Route::get('/system-admin-logs', [App\Http\Controllers\Admin\SystemLogController::class, 'index'])->name('system-admin-logs');
         Route::get('/system-transaction-logs', [App\Http\Controllers\Admin\SystemLogController::class, 'transactionLogs'])->name('system-transaction-logs');
         Route::get('/system-cleanup-stats', [App\Http\Controllers\Admin\SystemLogController::class, 'getCleanupStats'])->name('system-cleanup-stats');
         Route::get('/system-cleanup-preview', [App\Http\Controllers\Admin\SystemLogController::class, 'getCleanupPreview'])->name('system-cleanup-preview');

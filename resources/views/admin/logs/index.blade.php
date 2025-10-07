@@ -225,12 +225,12 @@
             </div>
             
             <div class="col-lg-3 col-md-6 mb-4">
-                <div class="card log-card" onclick="window.location.href='{{ route('admin.logs.system-logs') }}'">
+                <div class="card log-card" onclick="window.location.href='{{ route('admin.logs.system-admin-logs') }}'">
                     <div class="card-body text-center">
                         <div class="log-type-icon text-warning">
                             <i class="fas fa-cogs"></i>
                         </div>
-                        <h5 class="card-title">System Logs</h5>
+                        <h5 class="card-title">System Admin Logs</h5>
                         <p class="card-text">System administration logs, transaction cleanup, and performance optimization tools.</p>
                         <div class="mt-3">
                             <span class="badge badge-warning">System</span>
